@@ -1,0 +1,88 @@
+body {
+    background-color: #fab9e67c;
+}
+
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    border-bottom: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    width: 100%;
+}
+
+header p {
+    border-bottom: none;
+    color: #0009;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    width: 100%;
+}
+
+
+label {
+    color: #000000;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #acdbf5;
+    border-radius: 5px;
+    background-color: rgba(193, 229, 247, 0.785);
+}
+
+
+button {
+    width: 50%;
+    background-color: #acdbf5;
+    color: rgb(232, 231, 231);
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 110px;
+}
+
+button:hover {
+    background-color: rgb(60, 38, 251);
+}
+
+
+#mensaje {
+    display: none; 
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #a24caf;
+    border-radius: 5px;
+    background-color: #d4edda;
+    color: #155724; 
+    font-size: 18px;
+    text-align: center;
+}
+
+
+#imagen {
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 700px;
+}
